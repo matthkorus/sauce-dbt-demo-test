@@ -1,0 +1,5 @@
+selectors:
+  - name: sldbt
+    description: For the sauce demo
+    definition:
+      tag: sldbt 
