@@ -34,4 +34,4 @@ models:
   sauce_dbt:
     # Config indicated by + and applies to all files under models/sauce_dbt. 
     +materialized: view
-    +tags: "example"
+    +tags: sldbt
