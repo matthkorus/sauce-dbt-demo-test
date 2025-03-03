@@ -6,5 +6,4 @@ selectors:
   - name: sldbt
     description: For the sauce demo
     definition:
-      method: tag
       'tag:sldbt' 
