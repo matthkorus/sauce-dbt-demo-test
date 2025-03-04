@@ -1,8 +1,4 @@
 selectors:
-  - name: example
-    description: Selects all models with tag:example
-    definition:
-      'tag:example'
   - name: sldbt
     description: For the sauce demo
     definition:
