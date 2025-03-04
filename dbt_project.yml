@@ -30,8 +30,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
-  # Create folders under models to separate your models by selectors.
-  sauce_dbt:
-    # Config indicated by + and applies to all files under models/sauce_dbt. 
-    +materialized: view
-    +tags: "sldbt"
+  # Create folders under models to separate your models by selectors if desired.
+  # Config indicated by + and applies to all files under models
+  +materialized: view
+  +tags: "all"
