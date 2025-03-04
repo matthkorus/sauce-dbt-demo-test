@@ -1,18 +1,18 @@
 with orders as ( 
     select * 
-    from {{source('demo','dbtexamples___orders')}}
+    from {{source('demo','DBTEXAMPLES___ORDERS')}}
 ), 
 order_items as ( 
     select * 
-    from {{source('demo','dbtexamples___order_items')}}
+    from {{source('demo','DBTEXAMPLES___ORDER_ITEMS')}}
 ),
 skus as ( 
     select * 
-    from {{source('demo','dbtexamples___skus')}}
+    from {{source('demo','DBTEXAMPLES___SKUS')}}
 ),
 user_names as ( 
     select *
-    from {{source('demo','dbtexamples___user_names')}}
+    from {{source('demo','DBTEXAMPLES___USER_NAMES')}}
 )
 select 
     o.id as order_id,
