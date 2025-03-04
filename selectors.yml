@@ -1,5 +1,5 @@
 selectors:
-  - name: sldbt
-    description: For the sauce demo
+  - name: all
+    description: Inclusive of all models in the project
     definition:
-      'tag:sldbt' 
+      'tag:all' 
