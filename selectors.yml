@@ -2,5 +2,5 @@ selectors:
   - name: all
     description: Inclusive of all models in the project
     definition:
-	method: fqn
-	value: "*"
+      method: fqn
+      value: "*"
