@@ -3,7 +3,7 @@ with order_items as (
         customer_name, 
         item_quantity,
         item_unit_cost
-    from {{ref('order_info')}} oi
+    from ref('order_info') oi
 )
 select 
     customer_name, 
