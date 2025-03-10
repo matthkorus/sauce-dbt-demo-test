@@ -5,7 +5,7 @@ sources:
     database: TEST_ETLEAP
     schema: MK_DEMO
     tables:
-      - name: DBTEXAMPLES___ORDERS 
+      - name: dbtexamples___orders 
       - name: DBTEXAMPLES___ORDER_ITEMS 
       - name: DBTEXAMPLES___SKUS 
       - name: DBTEXAMPLES___USER_NAMES 
