@@ -1,6 +1,6 @@
 with orders as ( 
     select * 
-    from {{source('demo','DBTEXAMPLES___ORDERS')}}
+    from {{source('demo','dbtexamples___orders')}}
 ), 
 order_items as ( 
     select * 
