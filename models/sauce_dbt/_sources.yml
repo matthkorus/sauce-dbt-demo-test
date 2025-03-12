@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: demo
+    database: TEST_ETLEAP
+    schema: MK_DEMO
+    tables:
+      - name: dbtexamples___orders
+      - name: dbtexamples___order_items
+      - name: dbtexamples___skus
+      - name: dbtexamples___user_names

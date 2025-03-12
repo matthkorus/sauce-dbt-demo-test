@@ -2,5 +2,13 @@ selectors:
   - name: all
     description: Inclusive of all models in the project
     definition:
+<<<<<<< HEAD
       method: fqn
       value: "*"
+=======
+      'tag:example'
+  - name: sldbt
+    description: For the sauce demo
+    definition:
+      'tag:sldbt' 
+>>>>>>> 2fd7727 (don't want this to change)
