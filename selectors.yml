@@ -3,4 +3,4 @@ selectors:
     description: Inclusive of all models in the project
     definition:
       method: fqn
-      value: order_info
+      value: lifetime_orders_by_customer
