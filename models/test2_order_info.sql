@@ -1,0 +1,1 @@
+select * from {{ ref('test_order_info') }}
