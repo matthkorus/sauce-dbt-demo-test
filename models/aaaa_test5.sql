@@ -1,1 +1,1 @@
-select 1 from {{ ref('test3_order_info') }}
+select * from {{ ref('test3_order_info') }}
