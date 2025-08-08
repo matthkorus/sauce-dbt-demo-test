@@ -1,5 +1,5 @@
 selectors:
-  - name: select_root_models
+  - name: select_root_modelss
     description: This selector will build any models in the root models directory. 
     definition: 
       method: path
