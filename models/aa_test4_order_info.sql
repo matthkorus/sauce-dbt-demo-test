@@ -1,1 +1,1 @@
-select * from {{ ref('test3_order_info') }}
+select * from {{ ref('lifetime_orders_by_customer') }}
