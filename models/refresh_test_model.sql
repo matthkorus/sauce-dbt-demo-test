@@ -1,1 +1,1 @@
-select * from {{ source('MK_DEMO', 'refresh_test') }} -- comment 
+select * from {{ source('MK_DEMO', 'refresh_test') }}
