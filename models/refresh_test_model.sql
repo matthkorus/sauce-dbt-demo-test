@@ -1,1 +1,1 @@
-select * from mk_test.prod_schemas -- comment 
+select * from {{ source('MK_DEMO', 'refresh_test') }} -- comment 

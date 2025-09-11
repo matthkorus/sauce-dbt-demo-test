@@ -7,3 +7,4 @@ sources:
       - name: DBTEXAMPLES___ORDERS
       - name: DBTEXAMPLES___SKUS
       - name: DBTEXAMPLES___USER_NAMES
+      - name: refresh_test
