@@ -1,0 +1,1 @@
+select * from mk_test.prod_schemas 
