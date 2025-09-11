@@ -1,1 +1,1 @@
-select * from mk_test.prod_schemas 
+select * from mk_test.prod_schemas -- comment 
