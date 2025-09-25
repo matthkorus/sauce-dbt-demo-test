@@ -2,10 +2,9 @@ version: 2
 
 sources:
   - name: demo
-    database: TEST_ETLEAP
-    schema: MK_DEMO
+    schema: mk_dbt_demo
     tables:
-      - name: dbtexamples___orders 
-      - name: DBTEXAMPLES___ORDER_ITEMS 
-      - name: DBTEXAMPLES___SKUS 
-      - name: DBTEXAMPLES___USER_NAMES 
+      - name: orders 
+      - name: ORDER_ITEMS 
+      - name: SKUS 
+      - name: USER_NAMES 
