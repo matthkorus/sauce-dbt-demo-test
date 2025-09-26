@@ -6,7 +6,6 @@ selectors:
       value: "models/*.sql"
   - name: refresh_model_test
     description: for testing a single model
-    default: true 
     definition: 
       method: path
       value: "models/refresh_test_model.sql"
