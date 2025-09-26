@@ -31,6 +31,6 @@ left join order_items oi
 left join skus s 
     on oi.sku = s.sku
 left join user_names u 
-    on o.user_id = u.id
+    on o.user_id = u.i
 
     
