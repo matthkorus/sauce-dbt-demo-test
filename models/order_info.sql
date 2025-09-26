@@ -13,6 +13,7 @@ skus as (
 user_names as ( 
     select *
     from {{source('demo','USER_NAMES')}}
+    where id > 1
 )
 select 
     o.id as order_id,
