@@ -1,18 +1,18 @@
 with orders as ( 
     select * 
-    from {{ source('MK_DEMO', 'DBTEXAMPLES___ORDERS') }}
+    from {{source('demo','orders')}}
 ), 
 order_items as ( 
     select * 
-    from {{ source('MK_DEMO', 'DBTEXAMPLES___ORDER_ITEMS') }}
+    from {{source('demo','ORDER_ITEMS')}}
 ),
 skus as ( 
     select * 
-    from {{ source('MK_DEMO', 'DBTEXAMPLES___SKUS') }}
+    from {{source('demo','SKUS')}}
 ),
 user_names as ( 
     select *
-    from {{ source('MK_DEMO', 'DBTEXAMPLES___USER_NAMES') }}
+    from {{source('demo','USER_NAMES')}}
 )
 select 
     o.id as order_id,
@@ -31,3 +31,5 @@ left join skus s
     on oi.sku = s.sku
 left join user_names u 
     on o.user_id = u.id
+
+    
