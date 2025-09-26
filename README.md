@@ -1,1 +1,1 @@
-# sauce-dbt-demo-test
+# dbt-demo-test
