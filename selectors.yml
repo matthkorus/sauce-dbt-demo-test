@@ -4,3 +4,8 @@ selectors:
     definition: 
       method: path
       value: "models/*.sql"
+  - name: model copy 
+    description: This selector will build the model order_info_copy.sql
+    definition:
+      method: path
+      value: "models/order_info_copy.sql"
