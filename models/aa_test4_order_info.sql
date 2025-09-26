@@ -1,1 +1,0 @@
-select * from {{ ref('lifetime_orders_by_customer') }}

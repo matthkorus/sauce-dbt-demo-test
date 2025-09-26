@@ -1,9 +1,12 @@
 version: 2
 sources:
-  - name: MK_DEMO
-    database: TEST_ETLEAP
+  - name: mk_test
+    database: jblessing
+    quoting:
+        schema: true
+        identifier: true
     tables:
-      - name: DBTEXAMPLES___ORDER_ITEMS
-      - name: DBTEXAMPLES___ORDERS
-      - name: DBTEXAMPLES___SKUS
-      - name: DBTEXAMPLES___USER_NAMES
+      - name: order_items
+      - name: orders
+      - name: skus
+      - name: user_names
