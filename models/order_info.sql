@@ -19,7 +19,7 @@ select
     o.order_date, 
     u.first_name || ' ' || u.last_name as customer_name,
     u.email as customer_email,
-    s.sku as sku,
+    s.sku as sku_sku,
     s.name as item_name, 
     s.description as item_description,
     oi.quantity as item_quantity,
