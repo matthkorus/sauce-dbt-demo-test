@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: demo
-    schema: mk_test
+    schema: mk_demo
     tables:
       - name: orders 
       - name: ORDER_ITEMS 
