@@ -1,18 +1,18 @@
 with orders as ( 
     select * 
-    from {{source('demo','orders')}}
+    from {{ source('mk_test', 'orders') }}
 ), 
 order_items as ( 
     select * 
-    from {{source('demo','ORDER_ITEMS')}}
+    from {{ source('mk_test', 'order_items') }}
 ),
 skus as ( 
     select * 
-    from {{source('demo','SKUS')}}
+    from {{ source('mk_test', 'skus') }}
 ),
 user_names as ( 
     select *
-    from {{source('demo','USER_NAMES')}}
+    from {{ source('mk_test', 'user_names') }}
     where id > 1
 )
 select 
