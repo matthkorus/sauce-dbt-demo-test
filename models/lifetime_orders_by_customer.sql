@@ -1,5 +1,5 @@
 with order_items as ( 
-    select
+    select -- comment 
         customer_name, 
         item_quantity,
         item_unit_cost
