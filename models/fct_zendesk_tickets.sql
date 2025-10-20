@@ -10,5 +10,5 @@ select
     o.name as organization_name
 from {{ source('zendesk', 'Tickets') }} t
 left join {{ source('zendesk', 'ticket_comments') }} tc on tc.ticket_id = t.id
-inner join {{ source('zendesk', 'Users') }}on t.requester_id = u.id 
-inner join {{ source('zendesk', 'Organizations') }} on u.organization_id = o.id
+inner join {{ source('zendesk', 'Users') }}u on t.requester_id = u.id 
+inner join {{ source('zendesk', 'Organizations') }} o on u.organization_id = o.id
