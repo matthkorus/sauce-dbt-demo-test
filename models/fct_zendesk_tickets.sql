@@ -1,6 +1,7 @@
 select 
 	t.id as ticket_id, 
     t.subject as ticket_subject,
+    t.status,
     tc.body as comment_body, 
     tc.created_at as comment_created_at,
     tc.type,
