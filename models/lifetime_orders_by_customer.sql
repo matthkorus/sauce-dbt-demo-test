@@ -10,3 +10,4 @@ select
     sum(item_quantity*item_unit_cost) as lifetime_spend
 from order_items 
 group by customer_name
+-- test
