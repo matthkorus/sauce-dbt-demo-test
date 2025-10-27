@@ -13,5 +13,4 @@ selectors:
   - name: snowflake
     description: only use this path for models to be built in snowflake
     definition:
-      method: path
-      value: "models/snowflake/*.sql"
+      tag: snowflake
