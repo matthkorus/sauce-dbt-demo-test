@@ -32,6 +32,8 @@ models:
   # Create folders under models to separate your models by selectors if desired.
   # Config indicated by + and applies to all files under models
   +materialized: view
+  snowflake:
+    +tags: ["snowflake"]
 
 flags:
   enable_iceberg_materializations: true
