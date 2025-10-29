@@ -4,7 +4,8 @@ sources:
   - name: demo
     schema: mk_demo
     tables:
-      - name: orders 
-      - name: ORDER_ITEMS 
-      - name: SKUS 
-      - name: USER_NAMES 
+      - name: orders
+      - name: ORDER_ITEMS
+      - name: SKUS
+      - name: USER_NAMES
+      - name: TICKET_COMMENTS

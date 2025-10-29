@@ -3,8 +3,8 @@ sources:
   - name: mk_test
     database: jblessing
     quoting:
-        schema: true
-        identifier: true
+      schema: true
+      identifier: true
     tables:
       - name: order_items
       - name: orders
@@ -13,8 +13,8 @@ sources:
   - name: zendesk
     database: jblessing
     quoting:
-        schema: true
-        identifier: true
+      schema: true
+      identifier: true
     tables:
       - name: Organizations
       - name: ticket_comments
