@@ -7,4 +7,4 @@ select
   $2::varchar as "b"
 from values (
   'a', 'b' ), (
-  'c', 'd' )
+  'c', 'd' ) 
