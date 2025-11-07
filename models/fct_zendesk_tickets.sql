@@ -1,11 +1,11 @@
 select 
 	t.id as ticket_id, 
     t.subject as ticket_subject,
-    t.status,
+    t.status as ticket_staus,
     tc.body as comment_body, 
     tc.created_at as comment_created_at,
-    tc.type,
-    tc.public,
+    tc.type as comment_type,
+    tc.public as comment_public,
     u.email as requester_email,
     u.name as requester_name,
     o.name as organization_name
