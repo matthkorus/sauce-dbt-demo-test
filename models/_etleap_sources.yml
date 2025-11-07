@@ -1,22 +1,13 @@
 version: 2
 sources:
-  - name: mk_test
-    database: jblessing
+  - name: MK_DEMO
+    database: TEST_ETLEAP
     quoting:
-      schema: true
-      identifier: true
+        schema: true
+        identifier: true
     tables:
-      - name: order_items
-      - name: orders
-      - name: skus
-      - name: user_names
-  - name: zendesk
-    database: jblessing
-    quoting:
-      schema: true
-      identifier: true
-    tables:
-      - name: Organizations
-      - name: ticket_comments
-      - name: Tickets
-      - name: Users
+      - name: ORDER_ITEMS
+      - name: ORDERS
+      - name: SKUS
+      - name: TICKET_COMMENTS
+      - name: USER_NAMES
