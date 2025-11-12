@@ -5,6 +5,12 @@
     {% set table_name = source_relation.identifier %}
     {% set columns = adapter.get_columns_in_relation(source_relation) %}
 
+    {%- if target.schema.startswith('ETLEAP_DBT_PR_')  -%}
+        
+        target_database = 'mk_dbt_qa'
+    
+    {% endif %}
+
     -- What we'll create/update in Iceberg
     {% set target_relation = '"' ~ catalog_linked_db ~ '"."' ~ target_database ~ '"."' ~ table_name ~ '"' %}
     
@@ -57,6 +63,6 @@
         
         {% endif %}
 
-    {%endif %}
+    {% endif %}
 
 {% endmacro %}
