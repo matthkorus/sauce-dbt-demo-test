@@ -7,7 +7,7 @@
 
     {%- if target.schema.startswith('ETLEAP_DBT_PR_')  -%}
         
-        target_database = 'mk_dbt_qa'
+        set target_database = 'mk_dbt_qa'
     
     {% endif %}
 
