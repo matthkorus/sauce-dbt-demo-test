@@ -37,3 +37,9 @@ models:
 
 flags:
   enable_iceberg_materializations: true
+  warn_error_options:
+    error: all # Previously called "include"
+    warn:      # Previously called "exclude"
+      - NoNodesForSelectionCriteria
+    silence:   # To silence or ignore warnings
+      - NoNodesForSelectionCriteria
