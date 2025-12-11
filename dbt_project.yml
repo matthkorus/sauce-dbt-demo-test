@@ -38,8 +38,9 @@ models:
 flags:
   enable_iceberg_materializations: true
   warn_error_options:
-    error: all # Previously called "include"
-    warn:      # Previously called "exclude"
+    error: 
       - NoNodesForSelectionCriteria
+    warn:      # Previously called "exclude"
+      - UnexpectedJinjaBlockDeprecation
     silence:   # To silence or ignore warnings
       - NoNodesForSelectionCriteria
