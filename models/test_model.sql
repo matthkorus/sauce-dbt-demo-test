@@ -1,6 +1,6 @@
-/*
+{#
 {{ config( materialized='incremental',unique_key = 'id') }}
-*/
+#}
 
 /*
 SELECT 1 AS id, 'hello' AS message
