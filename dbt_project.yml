@@ -33,7 +33,7 @@ models:
   sauce_dbt:
     +materialized: view
     snowflake:
-      +tags: ["snowflake"]
+      +tags: ["{{ env_var('DBT_PROD') }}"]
 
 flags:
   enable_iceberg_materializations: true
