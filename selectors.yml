@@ -13,8 +13,8 @@ selectors:
     description: only use this path for models to be built in snowflake
     definition:
       tag: snowflake
-  - name: null
+  - name: empty_selector
     description: don't select any models 
     default: true 
     definition: 
-      tag: null_do_not_use
+      tag: empty_do_not_use
