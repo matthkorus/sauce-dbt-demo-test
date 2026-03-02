@@ -3,7 +3,7 @@
 #}
 
 /*
-SELECT 1 AS id, 'hello' AS message
+SELECT 1 AS id, 'hello' AS messag
 */ 
 
 
