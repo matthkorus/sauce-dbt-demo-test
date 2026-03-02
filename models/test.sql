@@ -1,0 +1,1 @@
+select * from {{ source('MK_DEMO', 'SKUS') }} limit 1
