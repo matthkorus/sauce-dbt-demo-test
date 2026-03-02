@@ -11,6 +11,6 @@ selectors:
       value: "models/order_info_copy.sql"
   - name: snowflake
     description: only use this path for models to be built in snowflake
-    default: true
+    default: false
     definition:
       tag: snowflake
