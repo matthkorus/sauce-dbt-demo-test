@@ -2,4 +2,7 @@ models:
   - name: order_info
     columns:
       - name: description
-
+        data_tests:
+          - accepted_values:
+              arguments: 
+                values: ['placed', 'shipped', 'completed', 'returned', 'pending', 'cancelled', 'refunded', 'processing', 'on_hold', 'failed', 'awaiting_payment', 'awaiting_fulfillment', 'awaiting_shipment', 'partially_shipped', 'partially_refunded', 'awaiting_pickup', 'awaiting_return', 'return_initiated', 'exchange_requested', 'back_ordered']
