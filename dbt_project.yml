@@ -33,7 +33,12 @@ models:
   sauce_dbt:
     +materialized: view
     snowflake:
-      +tags: ["{{ env_var('DBT_PROD') }}"]
+      +tags: ["{{ env_var('DBT_PROD','etleap')}}"]
+
+quoting:
+  database: false
+  schema: true
+  identifier: true
 
 flags:
   enable_iceberg_materializations: true

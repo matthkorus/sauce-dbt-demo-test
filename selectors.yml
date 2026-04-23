@@ -14,3 +14,8 @@ selectors:
     default: true
     definition:
       tag: snowflake
+  - name: iceberg-test
+    description: Grabs the iceberg_write_test model
+    definition:
+      method: path
+      value: "models/iceberg/iceberg_write_test.sql"
