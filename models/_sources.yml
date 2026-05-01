@@ -9,3 +9,4 @@ sources:
       - name: SKUS
       - name: USER_NAMES
       - name: TICKET_COMMENTS
+      - name: ZENDESK_TICKETS

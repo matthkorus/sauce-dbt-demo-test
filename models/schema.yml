@@ -1,5 +1,0 @@
-models:
-  - name: order_info
-    columns:
-      - name: description
-      

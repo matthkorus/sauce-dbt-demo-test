@@ -28,12 +28,22 @@ clean-targets: # directories to be removed by `dbt clean`
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
-  # Create folders under models to separate your models by selectors if desired.
-  # Config indicated by + and applies to all files under models
   sauce_dbt:
-    +materialized: view
+    # Create folders under models to separate your models by selectors if desired.
+    # Config indicated by + and applies to all files under models
+    demo:
+      +enabled: false
     snowflake:
-      +tags: ["{{ env_var('DBT_PROD') }}"]
+      +enabled: false
+    iceberg:
+      +enabled: true
+      +materialized: table
+      +catalog_name: snowflake_cld
+
+quoting:
+  database: false
+  schema: true
+  identifier: true
 
 flags:
   enable_iceberg_materializations: true
