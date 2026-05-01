@@ -37,6 +37,8 @@ models:
       +enabled: false
     iceberg:
       +enabled: true
+      +materialized: table
+      +catalog_name: snowflake_cld
 
 quoting:
   database: false

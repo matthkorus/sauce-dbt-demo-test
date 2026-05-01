@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: tickets_from_iceberg_base
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: brand_id
+        data_type: bigint
+      - name: assignee_id
+        data_type: bigint

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: cld
+    database: DBT_ICEBERG_CATALOG_LINKED_DB
+    schema: dbt_test
+    tables:
+      - name: tickets_vanilla
