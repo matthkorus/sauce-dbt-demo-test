@@ -13,8 +13,8 @@ selectors:
     description: only use this path for models to be built in snowflake
     definition:
       tag: snowflake
-  - name: iceberg-test
+  - name: iceberg-zendesk-test
     description: Grabs the iceberg_write_test model
     definition:
       method: path
-      value: "models/iceberg/iceberg_write_test.sql"
+      value: "models/iceberg/tickets_from_iceberg_base.sql"
