@@ -1,0 +1,92 @@
+version: 2
+
+models:
+  - name: tickets_from_iceberg_base
+    config:
+      contract:
+        enforced: false
+    columns:
+      - name: allow_attachments
+        data_type: boolean
+      - name: allow_channelback
+        data_type: boolean
+      - name: assignee_id
+        data_type: long
+      - name: brand_id
+        data_type: long
+      - name: collaborator_ids
+        data_type: string
+      - name: created_at
+        data_type: timestamp_ntz
+      - name: custom_fields
+        data_type: string
+      - name: custom_status_id
+        data_type: long
+      - name: description
+        data_type: string
+      - name: due_at
+        data_type: string
+      - name: email_cc_ids
+        data_type: string
+      - name: encoded_id
+        data_type: string
+      - name: external_id
+        data_type: string
+      - name: fields
+        data_type: string
+      - name: follower_ids
+        data_type: string
+      - name: followup_ids
+        data_type: string
+      - name: forum_topic_id
+        data_type: string
+      - name: from_messaging_channel
+        data_type: boolean
+      - name: generated_timestamp
+        data_type: long
+      - name: group_id
+        data_type: long
+      - name: has_incidents
+        data_type: boolean
+      - name: id
+        data_type: long
+      - name: is_public
+        data_type: boolean
+      - name: organization_id
+        data_type: long
+      - name: priority
+        data_type: string
+      - name: problem_id
+        data_type: string
+      - name: raw_subject
+        data_type: string
+      - name: recipient
+        data_type: string
+      - name: requester_id
+        data_type: long
+      - name: satisfaction_rating
+        data_type: string
+      - name: sharing_agreement_ids
+        data_type: string
+      - name: status
+        data_type: string
+      - name: subject
+        data_type: string
+      - name: submitter_id
+        data_type: long
+      - name: tags
+        data_type: string
+      - name: type
+        data_type: string
+      - name: updated_at
+        data_type: timestamp_ntz
+      - name: url
+        data_type: string
+      - name: via
+        data_type: string
+      - name: support_type
+        data_type: string
+      - name: _sequence
+        data_type: string
+      - name: _is_delete
+        data_type: boolean
