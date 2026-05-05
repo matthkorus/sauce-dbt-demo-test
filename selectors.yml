@@ -17,4 +17,4 @@ selectors:
     description: Grabs the iceberg_write_test model
     definition:
       method: path
-      value: "models/iceberg/tickets_from_iceberg_base.sql"
+      value: "models/iceberg/zendesk_*"

@@ -10,5 +10,5 @@ sources:
       - name: USER_NAMES
       - name: TICKET_COMMENTS
       - name: ZENDESK_TICKETS
-      - name: USERS
+      - name: ZENDESK_USERS
       - name: ORGANIZATIONS
