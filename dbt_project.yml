@@ -42,7 +42,7 @@ models:
 
 quoting:
   database: false
-  schema: true
+  schema: false
   identifier: true
 
 flags:

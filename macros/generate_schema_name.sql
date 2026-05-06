@@ -2,10 +2,6 @@
 
     {%- set default_schema = target.schema -%}
 
-    {% if modules.re.match('^ETLEAP_DBT_PR_\w+$', target.schema) %}
-        {%- set default_schema = 'dbt_test_ci' -%}
-    {% endif %}
-
     {%- if custom_schema_name is none -%}
 
         {{ default_schema }}
