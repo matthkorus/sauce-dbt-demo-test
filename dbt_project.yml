@@ -36,9 +36,13 @@ models:
     snowflake:
       +enabled: false
     iceberg:
-      +enabled: true
+      +enabled: false
       +materialized: table
       +catalog_name: snowflake_cld
+      zendesk:
+        +enabled: true
+      zendesk_2:
+        +enabled: true
 
 quoting:
   database: false
