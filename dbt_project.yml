@@ -33,6 +33,9 @@ models:
     # Config indicated by + and applies to all files under models
     demo:
       +enabled: false
+    python:
+      +enabled: true
+      +tags: python
     snowflake:
       +enabled: false
     iceberg:
