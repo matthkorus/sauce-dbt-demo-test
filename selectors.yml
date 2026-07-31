@@ -18,3 +18,7 @@ selectors:
     definition:
       method: path
       value: "models/iceberg/zendesk/zendesk*"
+  - name: python-test
+    description: testing out a python model
+    definition: 
+       tag: python
