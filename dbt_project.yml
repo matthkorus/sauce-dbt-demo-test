@@ -43,9 +43,9 @@ models:
       +materialized: table
       +catalog_name: snowflake_cld
       zendesk:
-        +enabled: true
+        +enabled: false
       zendesk_2:
-        +enabled: true
+        +enabled: false
 
 quoting:
   database: false
